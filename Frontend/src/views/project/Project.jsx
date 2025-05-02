@@ -38,7 +38,7 @@ const Project = () => {
     }
 
     useEffect(() => {
-        const io = SocketIo("http://localhost:3000/", {
+        const io = SocketIo("https://ai-jlvm.onrender.com/", {
             query: {
                 project: prams.id
             }

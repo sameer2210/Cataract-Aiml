@@ -21,3 +21,11 @@ This code is super straightforward and easy to understand, which is fantastic!  
 👍 **Encouragement & Closing Notes**
 
 This is a great, clean start! You've written code that is easy to read and does exactly what it's supposed to do.  Thinking about naming conventions and the broader context of your code are excellent next steps as you continue to develop your skills.  Keep practicing and experimenting with more descriptive names and thinking about how your code fits into larger systems – you're on the right track! 💪✨
+
+
+
+
+
+
+
+password = 26CJyIoRgxHHcqkH

@@ -60,7 +60,7 @@ const CreateProject = () => {
   async function handleSubmit(e) {
     e.preventDefault();
     try {
-      await axios.post('http://localhost:3000/projects/create', {
+      await axios.post('https://ai-jlvm.onrender.com/projects/create', {
         projectName,
       });
       navigate('/');

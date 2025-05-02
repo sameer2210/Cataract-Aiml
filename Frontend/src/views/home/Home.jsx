@@ -67,7 +67,7 @@ const Home = () => {
   const [projects, setProjects] = useState([]);
 
   useEffect(() => {
-    axios.get('http://localhost:3000/projects/get-all')
+    axios.get('https://ai-jlvm.onrender.com/projects/get-all')
       .then(response => {
         setProjects(response.data.data);
       })
