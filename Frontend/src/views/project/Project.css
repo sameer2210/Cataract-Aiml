@@ -138,6 +138,54 @@
   .get-review:hover {
     transform: scale(1.1);
   }
+
+
+  /* ======= Mobile Code Input (for mobile fallback) ======= */
+.mobile-code-input {
+  display: none;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding: 1rem;
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.mobile-code-input textarea {
+  width: 100%;
+  height: 100px;
+  resize: vertical;
+  padding: 0.6rem 1rem;
+  background: #1e1e1e;
+  color: white;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 0.6rem;
+  font-size: 1rem;
+  font-family: monospace;
+  outline: none;
+}
+
+.mobile-code-input button {
+  align-self: flex-end;
+  background: linear-gradient(to right, #00c6ff, #0072ff);
+  color: white;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  font-weight: bold;
+  transition: transform 0.3s ease;
+}
+
+.mobile-code-input button:hover {
+  transform: scale(1.05);
+}
+
+/* Only show on small screens */
+@media (max-width: 768px) {
+  .mobile-code-input {
+    display: flex;
+  }
+}
+
   
   /* ========== Scrollbar ========== */
   .messages::-webkit-scrollbar,
